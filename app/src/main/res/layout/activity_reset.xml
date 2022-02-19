@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reset"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Debt Control Reset Password:"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/securityKey"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter security Key"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Phone number"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Set new Password"
+        android:inputType="numberPassword"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/passConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm New Password"
+        android:inputType="numberPassword"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_margin="10dp"
+        android:background="@color/purple_200"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF4500"
+        android:text="Back to Login"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980260504366",
+    "project_id": "hostel-booking-system",
+    "storage_bucket": "hostel-booking-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980260504366:android:c5561b4c198ce80e2170bf",
+        "android_client_info": {
+          "package_name": "com.example.hostelbookingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980260504366-p59t1k7quu29g5iohvbhv6flhggcvq34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Z0UOqFHvv3dnfoCOoRC-SV18Vf7rmhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980260504366-p59t1k7quu29g5iohvbhv6flhggcvq34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
